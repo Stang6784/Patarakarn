@@ -4,6 +4,6 @@ main(void){
 	float area, radius;
 	printf("Enter your radius");
 	scanf("%f", &radius);
-	area = PI*radius^2;
+	area = PI*radius*radius;
 	printf("Your area is %.3f", area);	
 }
